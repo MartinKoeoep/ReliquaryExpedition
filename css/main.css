@@ -1,0 +1,160 @@
+/******************
+OVERALL FORMATTING
+******************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+/* anchor Link formatting */
+a {
+  text-decoration: none;
+}
+
+/* Body formatting */
+#wrapper{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+img {
+max-width: 100%
+}
+
+
+/******************
+Heading
+******************/
+
+header {
+  float: center;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+/* logo text formatting */
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Spectral SC', serif;
+  margin: 15px 0;
+  font-size: 2.25em;
+  font-weight: normal;
+  line-height: 1em;
+  padding-top: 10px;
+}
+
+h2 {
+  font-family: 'Spectral SC', serif;
+  margin: -5px 0 0;
+  font-size: 0.75em;
+  font-weight: normal;
+}
+
+
+/******************
+Navigation
+******************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+   display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/******************
+FOOTER
+******************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #666;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
+
+/******************
+PAGE HOME
+******************/
+
+#image {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#image li {
+  float: center;
+  width: 100%;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+#image p {
+  margin: 0;
+  padding: 0.5%; 
+  font-size: 0.75em;
+  color: #333;
+}
+/******************
+COLOURS
+******************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #161616
+}
+
+/* Dark grey header */
+header {
+  background: #161616;
+  border-color: #000;
+}
+
+/*black nav background*/
+nav {
+background: #000;
+}
+
+/* header and nav link colours */
+h1, h2, nav a, nav a:visited {
+  color: #fff;
+}
+
+/* current page and gover colour */
+nav a.selected, nav a:hover {
+  color: #aaa;
+}
+a p {
+  color: #ccc;
+}
+
+
